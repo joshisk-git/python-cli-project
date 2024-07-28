@@ -127,8 +127,7 @@ COLUMNS =(
     "web",
 )
 
-#git config --global user.name "Shree Krishna Joshi"
-#git config --global user.email "joshisk.official@gmail.com"
+
 
 def update_user_by_id(con, user_id, column_name, column_value):
     update_query = f"UPDATE users set {column_name}=? where id = ?;"
@@ -201,6 +200,18 @@ def main():
 
 main()
 
+#git install
+#create a new repo in github
+#git config --global user.name "Shree Krishna Joshi"
+#git config --global user.email "joshisk.official@gmail.com"
+#git init
 
+#git add .
+#git commit -m "commit message"
+#git push origin
+
+
+#CURD - Create, Read, Update, Delete
+#test
 
     
